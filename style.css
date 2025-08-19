@@ -90,6 +90,12 @@ section[id] {
 /* Hero Section */
 .hero-section {
     padding-top: 120px; /* Extra padding to account for the fixed top bar */
+    background: linear-gradient(to right, #00C4BC, #C47169);
+    color: var(--white);
+}
+
+.hero-section h1 {
+    color: var(--white);
 }
 .hero-image {
     max-width: 400px;
@@ -364,7 +370,8 @@ body.noscroll {
 
 /* Footer */
 footer {
-    background-color: var(--light-teal-bg);
+    background: linear-gradient(to right, #00C4BC, #C47169);
+    color: var(--white);
     padding: 30px 20px;
     margin-top: 40px;
 }
@@ -374,6 +381,7 @@ footer .container {
 .footer-logo {
     max-width: 150px;
     margin-bottom: 10px;
+    filter: brightness(0) invert(1); /* Invert colors to make the logo white */
 }
 footer p {
     margin: 0;
