@@ -8,6 +8,7 @@
     --accent-red: #E57373;
     --dark-teal-bg: #00695C;
     --white: #FFFFFF;
+    --pastel-bg: #FFF9F3;
     --font-family: 'Poppins', sans-serif;
 }
 
@@ -104,7 +105,7 @@ section[id] {
 
 /* Welcome Section */
 .welcome-section {
-    background-color: var(--white);
+    background-color: var(--pastel-bg);
 }
 .welcome-section p {
     font-size: 1.1rem;
@@ -132,7 +133,7 @@ section[id] {
 
 /* FAQ Intro Section */
 .faq-intro-section {
-    background-color: var(--white);
+    background-color: var(--pastel-bg);
 }
 .faq-intro-section img {
     max-width: 350px;
@@ -144,7 +145,7 @@ section[id] {
 
 /* Not EJC Section */
 .not-ejc-section {
-    background-color: var(--white);
+    background-color: var(--pastel-bg);
 }
 .not-ejc-section ul {
     list-style: none;
@@ -167,7 +168,7 @@ section[id] {
 
 /* Packing Section */
 .packing-section {
-    background-color: var(--white);
+    background-color: var(--pastel-bg);
 }
 .packing-section img {
     max-width: 300px;
@@ -214,8 +215,14 @@ section[id] {
     max-width: 250px;
 }
 
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .emergencies-prep-section, .final-cta-section {
-    background-color: var(--white);
+    background-color: var(--pastel-bg);
 }
 
 /* Important Section */
@@ -257,8 +264,7 @@ section[id] {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(224, 242, 241, 0.9); /* --light-teal-bg with transparency */
-    backdrop-filter: blur(10px);
+    background-color: var(--dark-teal-bg);
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
@@ -290,7 +296,7 @@ section[id] {
     width: 25px;
     height: 3px;
     margin: 5px 0;
-    background-color: var(--text-dark);
+    background-color: var(--white);
     transition: all 0.3s ease-in-out;
 }
 
