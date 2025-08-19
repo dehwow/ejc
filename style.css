@@ -103,6 +103,9 @@ section[id] {
 }
 
 /* Welcome Section */
+.welcome-section {
+    background-color: var(--white);
+}
 .welcome-section p {
     font-size: 1.1rem;
 }
@@ -128,6 +131,9 @@ section[id] {
 }
 
 /* FAQ Intro Section */
+.faq-intro-section {
+    background-color: var(--white);
+}
 .faq-intro-section img {
     max-width: 350px;
     margin-bottom: 20px;
@@ -160,12 +166,15 @@ section[id] {
 }
 
 /* Packing Section */
+.packing-section {
+    background-color: var(--white);
+}
 .packing-section img {
     max-width: 300px;
     margin-bottom: 30px;
 }
 .packing-section .two-columns {
-    background-color: var(--white);
+    /* background-color: var(--white); */ /* No longer needed here */
     padding: 30px;
     border-radius: 15px;
 }
@@ -203,6 +212,10 @@ section[id] {
 .emergencies-prep-section .column img {
     margin-top: 20px;
     max-width: 250px;
+}
+
+.emergencies-prep-section, .final-cta-section {
+    background-color: var(--white);
 }
 
 /* Important Section */
@@ -244,7 +257,7 @@ section[id] {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(224, 242, 241, 0.9); /* --light-teal-bg with transparency */
     backdrop-filter: blur(10px);
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
