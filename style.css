@@ -99,6 +99,7 @@ section[id] {
     color: var(--white);
 }
 .hero-image {
+    width: 100%;
     max-width: 400px;
     margin-top: 30px;
 }
